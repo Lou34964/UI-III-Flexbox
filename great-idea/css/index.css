@@ -90,6 +90,12 @@ nav{
 	align-items: center;
 	height: 9vh;
 	margin:0 0 30px 0; 
+
+}
+
+nav a{
+	text-decoration: none;
+	color:gray;
 }
 
 .box1{
@@ -248,7 +254,7 @@ p{
 	text-align: center;
 }
 
-/* --------- section1 ----------*/
+/* --------- section2 ----------*/
 
 .Facts{
 	margin-top:4vh;
@@ -268,11 +274,93 @@ p{
 	width:89%;
 }
 
-/* --------- section1 ----------*/
+/* --------- footer ----------*/
 footer{
 	display: flex;
 	justify-content: center;
 	vertical-align: bottom;
 	height:5vh;
 	margin-top: 15vh;
+}
+
+/* ----------- css for service.html ------------------ */
+
+/* --------- header ----------*/
+
+.Pheader{
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.Pheader *{
+	margin:3vh 0;
+}
+.Pheader img{
+	height: 400px;
+	width: 80%;
+	border-radius: 55px;
+}
+.Pheader p{
+	line-height: 2.5vh;
+}
+.Pheader h1{
+	font-size: 3vh;
+}
+
+/* --------- productsA ----------*/
+
+.Prods{
+	display: flex;
+	justify-content: center;
+	font-size: 5vh;
+	margin:4vh 0 6vh 0;
+}
+
+.products{
+	display: flex;
+	justify-content: space-evenly;
+	height: 50vh;
+	align-items: center;
+}
+
+.ProChild{
+	display: flex;
+	height: 32vh;
+	padding: 5vh 4vh;
+	justify-content: right;
+	flex-direction: column;
+	align-items: center;
+	border:2px inset;
+	background-color:  #e3e5e8;
+	border-radius: 9px;
+}
+
+.ProChild div{
+	padding-top:5%;
+	color:green;
+}
+
+.ProChild a{
+	align-self: center;
+	margin: 15% 0 0 0;
+	padding: 5%;
+	border: 2px outset;
+	border-radius: 8px;
+	background-color: lightgray;
+}
+
+.Beginner a{
+	margin:12%;
+}
+
+.Full a{
+	margin:22%;
+}
+.ProChild a:active{
+	background-color:gray;
+}
+
+#Cross{
+	text-decoration: line-through;
+	color: red;
 }
